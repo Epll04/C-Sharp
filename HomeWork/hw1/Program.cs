@@ -26,3 +26,21 @@
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
+//System.Console.WriteLine("Input number: ");
+//int num = Convert.ToInt32(Console.ReadLine());
+//if (num%2 == 0) 
+//System.Console.WriteLine ($"число {num} четное");
+//else
+//System.Console.WriteLine ($"число {num} нечетное");
+
+// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+System.Console.WriteLine("Input number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+for(int i=1;i<=num;i++);
+while (count <= num)
+{
+if (num%2 == 0)
+System.Console.Write(in+",");
+}
+
