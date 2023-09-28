@@ -35,12 +35,21 @@
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
+//System.Console.WriteLine("Input number: ");
+//int num = Convert.ToInt32(Console.ReadLine());
+//int count = 1;
+//while (count <= num)
+//{
+//System.Console.Write(count++ +" ");
+//}
+
 System.Console.WriteLine("Input number: ");
 int num = Convert.ToInt32(Console.ReadLine());
-for(int i=1;i<=num;i++);
+int count = 1;
 while (count <= num)
-{
-if (num%2 == 0)
-System.Console.Write(in+",");
-}
-
+    {
+    if(num%2 == 0) 
+        {
+        System.Console.Write(count++ +" ");
+        }
+    }
