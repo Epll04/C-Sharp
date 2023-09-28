@@ -47,9 +47,9 @@ System.Console.WriteLine("Input number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int count = 1;
 while (count <= num)
+   {
+    for(num%2 == 0);
     {
-    if(num%2 == 0) 
-        {
-        System.Console.Write(count++ +" ");
-        }
+     System.Console.Write(count++ +" ");
     }
+   }
