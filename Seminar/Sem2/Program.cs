@@ -6,15 +6,15 @@
 
 //void CheckMultiplicity (int num1, int num2)
 //{
-//    if (num1 % num2 ==0)
-//    {
-//        System.Console.WriteLine ($"{num1}, {num2} -> кратно");
-//    }
-//    else
-//    {
-//       System.Console.WriteLine ($"{num1}, {num2} -> не кратно, остаток {num1% num2}");
-//    }
-// }
+    //if (num1 % num2 ==0)
+    //{
+       //System.Console.WriteLine ($"{num1}, {num2} -> кратно");
+    //}
+    //else
+    //{
+       //System.Console.WriteLine ($"{num1}, {num2} -> не кратно, остаток {num1% num2}");
+    //}
+ //}
 //
 //System.Console.Write("Input first number: ");
 //int n1 = Convert.ToInt32(Console.ReadLine());
@@ -32,24 +32,23 @@
 
 // 85 -> 8
 
-//int FindBiggestDigit (int num)
-//{
-    //int ed = num % 10;
-    //int dec = num / 10;
-    //if (ed > dec)
-    //{
-     //  return ed;
-    //}
-    //else
-    //{
-    //   return dec; 
-    //} 
-//}
+// int FindBiggestDigit (int num)
+// {
+//     int ed = num % 10;
+//     int dec = num / 10;
+//     if (ed > dec)
+//     {
+//       return ed;
+//     }
+//     else
+//     {
+//        return dec; 
+//     } 
+// }
 
-//int num = new Random().Next(10, 100);
-//System.Console.WriteLine(num);
-//
-//System.Console.WriteLine(FindBiggestDigit(num));
+// int num = new Random().Next(10, 100);
+// System.Console.WriteLine(num);
+// System.Console.WriteLine(FindBiggestDigit(num));
 
 // напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
 // 456 -> 46
@@ -65,7 +64,7 @@
 //}
 //Reduction();
 
-// Напишите программу, которая принимает на вход число  и проверяет, кратно ли оно одновременно 7 и 23.
+Напишите программу, которая принимает на вход число  и проверяет, кратно ли оно одновременно 7 и 23.
 
 bool Multiplicity (int num)
 {
@@ -82,3 +81,4 @@ System.Console.Write("Input num: ");
 int num = Convert.ToInt32(Console.ReadLine());
 bool result = Multiplicity(num);
 System.Console.WriteLine(result);
+
