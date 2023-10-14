@@ -86,22 +86,22 @@
 
 // Напишите программу, которая принимает на вход число N  и выдает произведение чисел от 1 до N
 
-int Vvod(string message)
-{
-    Console.WriteLine(message);
-    int x = Convert.ToInt32 (Console.ReadLine());
-    return x;
-}
+// int Vvod(string message)
+// {
+//     Console.WriteLine(message);
+//     int x = Convert.ToInt32 (Console.ReadLine());
+//     return x;
+// }
 
-int Factorial (int n)
-{
-    int factorial = 1;
-    for (int i = 1; i <=n; i++)
-        {
-            factorial *= i;
-        }
-    return factorial;
-}
+// int Factorial (int n)
+// {
+//     int factorial = 1;
+//     for (int i = 1; i <=n; i++)
+//         {
+//             factorial *= i;
+//         }
+//     return factorial;
+// }
 
-int n = Vvod ("Введите число N: ");
-Console.WriteLine(Factorial(n));
+// int n = Vvod ("Введите число N: ");
+// Console.WriteLine(Factorial(n));
