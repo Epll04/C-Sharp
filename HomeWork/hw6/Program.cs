@@ -15,7 +15,6 @@ int[] Array(int m) // пишем метод для создания массив
     }
     return array;
 }
-
 void PrintArray (int[] array) //метод PrintArray - чтобы вывести на экран наш массив
 {
     for (int i=0; i < array.Length; i++)
@@ -24,7 +23,6 @@ void PrintArray (int[] array) //метод PrintArray - чтобы вывест�
     }
 System.Console.WriteLine();
 }
-
 int CountN(int[] Array)
 {
     int count = 0;
@@ -37,10 +35,8 @@ int CountN(int[] Array)
     }
     return count;
 }
-
 int[] myArray = Array(m);
 PrintArray(myArray);
-
 System.Console.Write(CountN);
 
 

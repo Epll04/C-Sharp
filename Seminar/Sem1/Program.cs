@@ -17,22 +17,22 @@
 // a = 9;  b = -3 -> yes
 // a = -3; b = 9  -> no
 
-bool a = true, false
+// bool a = true, false
 
 
-Console.WriteLine("Input first number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input second number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input first number: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
 
-if(num2 * num2 == num1)
-{
-Console.WriteLine($"{num1} является квадратом {num2} ");
-}
-else
-{
-Console.WriteLine($"{num1} не является квадратом {num2} ");  
-}
+// if(num2 * num2 == num1)
+// {
+// Console.WriteLine($"{num1} является квадратом {num2} ");
+// }
+// else
+// {
+// Console.WriteLine($"{num1} не является квадратом {num2} ");  
+// }
 
 // Задача 3. Напишите программу, которая на вход принимает одно число N, а на выходе показывает все целые числа в промежутке от -N до N
 
@@ -69,3 +69,14 @@ Console.WriteLine($"{num1} не является квадратом {num2} ");
 // {
 //  System.Console.WriteLine("You input not three-Digit number");  
 // }
+
+
+// int a = 5;
+
+// int b = 7;
+
+// int c;
+
+// c = a+b;
+
+// Console.WriteLine(c);
